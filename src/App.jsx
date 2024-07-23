@@ -17,6 +17,10 @@ function App() {
     setTodos(newTodos);
   };
 
+  const handleClearAll = () => {
+    setTodos([]);
+  };
+
   return (
     <div className="App">
       <h1 className='h1'>To-Do List</h1>
@@ -38,6 +42,7 @@ function App() {
           </div>
         ))}
       </div>
+      <button className='clear' onClick={handleClearAll}>Clear All</button>
     </div>
   );
 }

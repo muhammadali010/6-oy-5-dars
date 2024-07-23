@@ -1,18 +1,20 @@
-body{
-background-repeat: no-repeat;
-background-size: cover;
-background-image: url(../public/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../public/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
 }
+
 .App {
   width: 500px;
   height: 500px;
   font-family: sans-serif;
   text-align: center;
   margin: 50px auto;
-  background-color: rgb(241, 237, 237,0.7);
+  background-color: rgba(241, 237, 237, 0.7);
 }
-.h1{
-padding-top: 30px;
+
+.h1 {
+  padding-top: 30px;
 }
 
 .todo-list {
@@ -35,16 +37,29 @@ padding-top: 30px;
 .todo-card:hover .delete-button {
   display: inline;
 }
-input{
+
+input {
   width: 250px;
-height: 25px;
+  height: 25px;
 }
-.add{
+
+.add {
   width: 70px;
-height: 31px;
-background-color: green;
-color: white;
-cursor: pointer;
+  height: 31px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.clear {
+  width: 100px;
+  height: 31px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
 }
 
 .delete-button {
