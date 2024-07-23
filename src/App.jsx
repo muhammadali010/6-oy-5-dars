@@ -30,7 +30,7 @@ function App() {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
-        <button className='add' onClick={handleAddTodo}>Add</button>
+        <button className='add' onClick={handleAddTodo}>+</button>
       </div>
       <div className="todo-list">
         {todos.map((todo, index) => (

@@ -40,21 +40,24 @@ body {
 
 input {
   width: 250px;
-  height: 25px;
+  height: 30px;
 }
 
 .add {
   width: 70px;
-  height: 31px;
-  background-color: green;
+  height: 35px;
+  margin-left: 3px;
+  background-color:blueviolet;
   color: white;
+  border: none;
   cursor: pointer;
+  line-height: 10px;
 }
 
 .clear {
   width: 100px;
   height: 31px;
-  background-color: red;
+  background-color: blueviolet;
   color: white;
   cursor: pointer;
   margin-top: 20px;
