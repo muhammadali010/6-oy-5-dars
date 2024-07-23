@@ -25,11 +25,7 @@ function App() {
     <div className="App">
       <h1 className='h1'>To-Do List</h1>
       <div>
-        <input 
-          type="text"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-        />
+        <input  type="text"  value={inputValue}  onChange={(e) => setInputValue(e.target.value)} />
         <button className='add' onClick={handleAddTodo}>+</button>
       </div>
       <div className="todo-list">
