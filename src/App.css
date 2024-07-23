@@ -1,5 +1,7 @@
 body{
-background-color: aqua;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(../public/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
 }
 .App {
   width: 500px;
@@ -7,11 +9,17 @@ background-color: aqua;
   font-family: sans-serif;
   text-align: center;
   margin: 50px auto;
-  background-color: white;
+  background-color: rgb(241, 237, 237,0.7);
+}
+.h1{
+padding-top: 30px;
 }
 
 .todo-list {
+  margin-left: 90px;
   margin-top: 20px;
+  width: 321px;
+  background-color: #fff;
 }
 
 .todo-card {
